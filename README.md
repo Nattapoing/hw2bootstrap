@@ -1,1 +1,99 @@
 # hw2bootstrap
+# รวบรวมคำสั่ง git ทั้งหมด
+- git checkout -b develop
+- git add .
+- git commit -m "โครงสร้างโปรเจคเริ่มต้น"
+- git checkout -b feature/home
+- git add .
+- git commit -m "index เบื้องต้น"
+- git add .
+- git commit -m "เพิ่ม ส่วนบน index"
+- git add .
+- git commit -m "เพิ่ม ปุ่ม หน้า หลังบน carousel index"
+- git add .
+- git commit -m "เพิ่มคำต้อนรับ index"
+- git add .
+- git commit -m "เพิ่มfooter index"
+- git checkout -b feature/about
+- git add .
+- git commit -m "เพิ่ม about ส่วนบน"
+- git add .
+- git commit -m "เพิ่มการ์ดท่องเที่ยว about"
+- git add .
+- git commit -m "เพิ่มfooter about"
+- git checkout -b feature/contact
+- git add .
+- git commit -m "เพิ่ม contact เบื้องต้น"
+- git add .
+- git commit -m "เพิ่มปุ่มฟอร์ม contact"
+- git add .
+- git commit -m "เพิ่มข้อมูลในฟอร์ม contact"
+- git add .
+- git commit -m "เพิ่ม footer contact"
+- git checkout -b feature/place1
+- git add .
+- git commit -m "เพิ่ม place1"
+- git add .
+- git commit -m "เพิ่ม place1 ข้อมูล"
+- git checkout -b feature/place2
+- git add .
+- git commit -m "เพิ่ม place2"
+- git add .
+- git commit -m "เพิ่ม place2 ข้อมูล"
+- git checkout -b feature/place3
+- git add .
+- git commit -m "เพิ่ม place3"
+- git add .
+- git commit -m "เพิ่ม place3 ข้อมูล"
+- git checkout -b feature/place4
+- git add .
+- git commit -m "เพิ่ม place4"
+- git add .
+- git commit -m "เพิ่ม place4 ข้อมูล"
+- git checkout -b feature/place5
+- git add .
+- git commit -m "เพิ่ม place5"
+- git add .
+- git commit -m "เพิ่ม place5 ข้อมูล"
+- git checkout -b feature/place6
+- git add .
+- git commit -m "เพิ่ม place6"
+- git add .
+- git commit -m "เพิ่ม place6 ข้อมูล"
+- git checkout -b feature/place7
+- git add .
+- git commit -m "เพิ่ม place7"
+- git add .
+- git commit -m "เพิ่ม place7 ข้อมูล"
+- git checkout -b feature/place8
+- git add .
+- git commit -m "เพิ่ม place8"
+- git add .
+- git commit -m "เพิ่ม place8 ข้อมูล"
+- git checkout -b feature/css
+- git add .
+- git commit -m "เพิ่มเอฟเฟคทั้งหมดในหน้าต่างๆ"
+- git checkout -b feature/images
+- git add .
+- git commit -m "เพิ่มรูปภาพทั้งหมดในหน้าต่างๆ"
+- git checkout -b feature/screenshot
+- git add .
+- git commit -m "เพิ่มรูป screenshot 3แบบ"
+- git add README.md
+- git commit -m "รวบรวมคำสั่ง git"
+- git checkout develop
+- git merge feature/home
+- git merge feature/about
+- git merge feature/contact
+- git merge feature/place1
+- git merge feature/place2
+- git merge feature/place3
+- git merge feature/place4
+- git merge feature/place5
+- git merge feature/place6
+- git merge feature/place7
+- git merge feature/place8
+- git merge feature/css
+- git merge feature/images
+- git merge feature/screenshot
+- git push origin develop

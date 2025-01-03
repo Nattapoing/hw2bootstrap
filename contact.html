@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Attractions - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          
+            <a class="navbar-brand" href="index.html">มาเที่ยวฉะเชิงเทรา</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">หน้าแรก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">เกี่ยวกับ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">ติดต่อ</a></li>
+                </ul>
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">ฟอร์มสำหรับการติดต่อเรา</h2>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+                เปิดฟอร์มติดต่อตรงนี้
+            </button>
+        </div>
+    </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label">ชื่อ-นามสกุล <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fullname" placeholder="กรอกชื่อ-นามสกุล" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label">อีเมล <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="example@domain.com" required>
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">เบอร์โทรศัพท์ (ไม่บังคับ)</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="08XXXXXXXX">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="message" class="form-label">ข้อความ <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="เขียนข้อความของคุณ" required></textarea>
+                        </div>
+                       
+                        <button type="submit" class="btn btn-success w-100">ส่งข้อมูล</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+              
+                <div class="col-md-4 mb-4">
+                    <h5>ติดต่อเรา</h5>
+                    <p>Thailand</p>
+                    <p>Email: 66160124@go.buu.ac.th</p>
+                    <p>Phone: +66 123 456 789</p>
+                </div>
+           
+                <div class="col-md-4 mb-4">
+                    <h5>ลิงก์สำคัญ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">หน้าแรก</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">เกี่ยวกับ</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">ติดต่อ</a></li>
+                    </ul>
+                </div>
+    
+            <div class="text-center mt-3">
+                <p>&copy; 2025 มาเที่ยวฉะเชิงเทรา</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
