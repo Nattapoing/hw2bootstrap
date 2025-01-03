@@ -36,3 +36,39 @@
             </button>
         </div>
     </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label">ชื่อ-นามสกุล <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fullname" placeholder="กรอกชื่อ-นามสกุล" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label">อีเมล <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="example@domain.com" required>
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">เบอร์โทรศัพท์ (ไม่บังคับ)</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="08XXXXXXXX">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="message" class="form-label">ข้อความ <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="เขียนข้อความของคุณ" required></textarea>
+                        </div>
+                       
+                        <button type="submit" class="btn btn-success w-100">ส่งข้อมูล</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
