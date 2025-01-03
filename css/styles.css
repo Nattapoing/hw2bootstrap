@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    position: relative; 
+}
+
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #ff8c00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+    padding-top: 10px;
+    z-index: 10;
+}
+
+
+.navbar-nav {
+    margin-top: 10px; 
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar-nav .nav-link.active {
+    color: red;
+    font-weight: bold;
+}
+
+
+.navbar-toggler {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+
+#hero {
+    position: relative;
+}
+
+.carousel-item {
+    height: 350px;
+    background: #333;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.5; 
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    width: 100%;
+    visibility: visible !important; 
+    display: block !important; 
+}
+
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center; 
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.5rem; 
+    }
+
+    
+    .carousel-caption h5 {
+        font-size: 1.5rem; 
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 1.2rem; 
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.75rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        padding-left: 10px;
+    }
+}
